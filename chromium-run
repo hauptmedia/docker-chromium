@@ -1,0 +1,5 @@
+#!/bin/sh
+
+CHROMIUM_ARGS="$CHROMIUM_ARGS --no-sandbox --start-maximized"
+
+exec /usr/bin/chromium $CHROMIUM_ARGS
