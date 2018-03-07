@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# clear chromium profile on each run
+if [ -d /root/.config/chromium ]; then
+    rm -rf /root/.config/chromium
+fi
+
 CHROMIUM_ARGS="$CHROMIUM_ARGS --no-sandbox --start-maximized"
 
 exec /usr/bin/chromium $CHROMIUM_ARGS
