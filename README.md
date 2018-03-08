@@ -20,7 +20,7 @@ Example Run
 ===========
 
 ```
-docker run -it --rm -p 3000:3000 -e VNC_PASSWORD=changeme -e SCREEN_SIZE=800x600 -e CHROMIUM_ARGS=www.hauptmedia.de hauptmedia/surfbox
+docker run -it --rm -p 3000:3000 -e VNC_PASSWORD=changeme -e SCREEN_SIZE=800x600 -e CHROMIUM_ARGS=www.hauptmedia.de hauptmedia/chromium
 ```
 
 Then connect to http://127.0.0.1:3000 with your webbrowser.
